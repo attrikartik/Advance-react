@@ -59,10 +59,10 @@ class Page extends Component {
   render() {
     return (
      <ThemeProvider theme={theme}>
-        <StyledPage>
+      <StyledPage>
         <Meta/>
         <Header/>
-         {this.props.children}
+        <Inner>{this.props.children}</Inner> 
       </StyledPage>
      </ThemeProvider>
     );

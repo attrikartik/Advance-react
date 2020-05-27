@@ -1014,7 +1014,13 @@ function (_Component) {
           lineNumber: 64
         },
         __self: this
-      }), this.props.children));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, this.props.children)));
     }
   }]);
 
@@ -2125,26 +2131,26 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_2__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 25
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_apollo__WEBPACK_IMPORTED_MODULE_4__["ApolloProvider"], {
         client: apollo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Page__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 28
         },
         __self: this
       })))));
